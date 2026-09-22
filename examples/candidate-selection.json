@@ -1,0 +1,20 @@
+{
+  "purpose": "rank_candidates",
+  "risk": "low",
+  "deterministic_available": false,
+  "evidence_sufficient": true,
+  "expected_benefit": "avoid_reading_candidates",
+  "data_reviewed": true,
+  "state": "Synthetic task: correct stale-cache invalidation. Candidate A: cache invalidation handler excerpt. Candidate B: stylesheet for a dashboard.",
+  "questions": {
+    "relevant_candidate": {
+      "type": "choice",
+      "instructions": "Which excerpt directly concerns cache invalidation?",
+      "criteria": {
+        "A": "Cache handler excerpt",
+        "B": "Stylesheet excerpt",
+        "NEEDS_REVIEW": "Neither or insufficient evidence"
+      }
+    }
+  }
+}

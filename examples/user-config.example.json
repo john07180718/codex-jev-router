@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "mode": "mock",
+  "model": "jev-1.13.0",
+  "max_task_calls": 3,
+  "max_daily_calls": 30,
+  "max_payload_bytes": 16000,
+  "timeout_seconds": 10,
+  "max_retries": 0,
+  "authorized_projects": []
+}

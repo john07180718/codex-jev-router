@@ -1,0 +1,20 @@
+{
+  "purpose": "classify_test_failures",
+  "risk": "low",
+  "deterministic_available": false,
+  "evidence_sufficient": true,
+  "expected_benefit": "batch_semantic_labels",
+  "data_reviewed": true,
+  "state": "Synthetic evidence: test_cache reports a stale value after invalidation. No actual project or customer data.",
+  "questions": {
+    "category": {
+      "type": "choice",
+      "instructions": "Classify the reported symptom, not its unproven root cause.",
+      "criteria": {
+        "CACHE_STATE": "Stale cache state",
+        "NETWORK": "Network connection symptom",
+        "NEEDS_REVIEW": "Insufficient evidence or another category"
+      }
+    }
+  }
+}

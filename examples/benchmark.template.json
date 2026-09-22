@@ -1,0 +1,34 @@
+{
+  "runs": [
+    {
+      "codex_input_tokens": null,
+      "codex_output_tokens": null,
+      "codex_cached_input_tokens": null,
+      "jev_input_tokens": null,
+      "jev_attempts": null,
+      "elapsed_seconds": null,
+      "quality_pass": null,
+      "pair_id": "example-pair",
+      "arm": "baseline",
+      "task_ref": "same-task-id",
+      "codex_model": "record-exact-model",
+      "reasoning_effort": "record-exact-setting",
+      "starting_commit": "same-starting-commit"
+    },
+    {
+      "codex_input_tokens": null,
+      "codex_output_tokens": null,
+      "codex_cached_input_tokens": null,
+      "jev_input_tokens": null,
+      "jev_attempts": null,
+      "elapsed_seconds": null,
+      "quality_pass": null,
+      "pair_id": "example-pair",
+      "arm": "jev",
+      "task_ref": "same-task-id",
+      "codex_model": "record-exact-model",
+      "reasoning_effort": "record-exact-setting",
+      "starting_commit": "same-starting-commit"
+    }
+  ]
+}

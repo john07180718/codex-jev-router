@@ -1,0 +1,5 @@
+interface:
+  display_name: "JEV 開發輔助"
+  short_description: "按需分類、篩選與範圍檢查；JEV 不取得執行權限"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,20 @@
+{
+  "purpose": "check_diff_scope",
+  "risk": "low",
+  "deterministic_available": false,
+  "evidence_sufficient": true,
+  "expected_benefit": "independent_scope_check",
+  "data_reviewed": true,
+  "state": "Synthetic requirement: rename only the log label. Synthetic diff: log label renamed; an unrelated timeout default also changed.",
+  "questions": {
+    "scope": {
+      "type": "choice",
+      "instructions": "Does this change stay inside the explicitly stated rename-only scope? Do not judge overall program correctness.",
+      "criteria": {
+        "IN_SCOPE": "Only the requested log-label rename",
+        "OUT_OF_SCOPE": "Includes unrelated behavior changes",
+        "NEEDS_REVIEW": "Insufficient evidence"
+      }
+    }
+  }
+}
